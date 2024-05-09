@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  background-image: url('C:\Users\nilav\OneDrive\Desktop\Slider\download.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.card div:last-child {
+  margin-bottom: 0;
+}
+
+.board {
+  background-color: #f0f0f0; /* Board-like background color */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.board span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.board .value {
+  font-weight: normal;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+/* Existing CSS code */
+
+/* Square table styles */
+.square-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.square-table th, .square-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.boader Card{
+  p.inset {border-style: inset;}
+}
+.P{
+  display:flexbox;
+ size: 100px;
+ text-align: center;
+  
+}
+.square-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.square-table tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.square-table tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+  }
+}
+
